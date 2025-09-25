@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0b0e13;
+  color: #e7edf6;
+}
+
+header, footer {
+  background: #0f1420;
+  padding: 1rem;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+form {
+  flex: 2;
+  background: #1a2235;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+input {
+  width: 100%;
+  padding: 6px;
+  margin-top: 4px;
+  border-radius: 4px;
+  border: 1px solid #333;
+  background: #0b1320;
+  color: #fff;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 0.6rem 1rem;
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#copilot {
+  flex: 1;
+  background: #1a2235;
+  padding: 1rem;
+  border-radius: 8px;
+}
